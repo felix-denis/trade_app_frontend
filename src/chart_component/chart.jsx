@@ -18,7 +18,7 @@ function Chart() {
   const [messages, setMessages] = useState([]);
   const ws = useRef(null);
 
-  const websocketurl = "https://trade-app-frontend-hs44.onrender.com/ws";
+  const websocketurl = "https://trade-app-backend-bnfm.onrender.com/ws";
 
   useEffect(() => {
     console.log(`attempting to connect to the websocket at ${websocketurl}`);
